@@ -2,30 +2,225 @@
 <html lang="tr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Planivo — Notion tabanlı planlama, finans, öğrenci ve alışkanlık sistemleri.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Planivo — hayat, öğrenci, finans ve alışkanlık sistemlerini tek bir düzen içinde yöneten premium Notion şablonları.">
+<meta name="theme-color" content="#0d1712">
 <title>Planivo — Planla. Düzenle. İlerle.</title>
-<style>
-:root{--bg:#f6f5ef;--card:#fff;--ink:#121815;--muted:#667068;--line:#dde4dd;--brand:#5f7866;--brand2:#91a895;--soft:#edf1eb;--dark:#101512;--radius:24px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}a{text-decoration:none;color:inherit}button{font:inherit}.shell{width:min(1160px,calc(100% - 28px));margin:auto}header{position:sticky;top:0;z-index:50;background:rgba(246,245,239,.94);border-bottom:1px solid rgba(18,24,21,.08);backdrop-filter:blur(12px)}.nav{height:70px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:19px}.logo{width:38px;height:38px;border-radius:12px;background:linear-gradient(145deg,#101512,#35433a);color:#fff;display:grid;place-items:center;font-size:12px;font-weight:800;position:relative}.logo:after{content:"↗";position:absolute;right:4px;bottom:1px;font-size:9px;color:#c5d5c9}.navlinks{display:flex;gap:24px;font-size:14px;color:#4e5951}.btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:999px;padding:13px 18px;font-weight:700;cursor:pointer;transition:.2s}.btn:hover{transform:translateY(-1px)}.btn-dark{background:var(--dark);color:#fff}.btn-light{background:#fff;color:#111}.btn-outline{border:1px solid #cfd8d0;background:transparent}.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;padding:78px 0 86px}.eyebrow,.kicker{font-size:11px;letter-spacing:.17em;color:var(--brand);font-weight:800}.hero h1,.page-hero h1,.section h2{font-size:clamp(44px,6vw,78px);line-height:.98;letter-spacing:-.045em;margin:16px 0}.hero h1 em,.page-hero h1 em{font-style:normal;color:var(--brand)}.hero p,.page-hero p{color:var(--muted);font-size:17px;max-width:680px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.trust{display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;font-size:12px;color:#68736b}.mock{background:#fbfbf7;border:1px solid #dce3dc;border-radius:28px;padding:18px;box-shadow:0 25px 70px rgba(40,55,45,.12)}.mock-head{display:flex;justify-content:space-between;border-bottom:1px solid #e6ebe5;padding-bottom:12px;font-size:11px;color:#758078}.metrics{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}.metric{background:#eef2ed;border-radius:16px;padding:15px}.metric small{display:block;font-size:10px;color:#7d867f}.metric strong{display:block;font-size:20px;margin-top:2px}.tasklist{margin-top:10px;border:1px solid #e4e9e3;border-radius:16px;padding:5px 13px}.tasklist div{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid #eaeee8;font-size:12px}.tasklist div:last-child{border:0}.section{padding:88px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:38px}.section h2{font-size:clamp(38px,5vw,60px);margin:8px 0}.section-head p{max-width:420px;color:var(--muted)}.products{display:grid;grid-template-columns:1fr 1fr;gap:18px}.product{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px;display:flex;flex-direction:column;min-height:460px}.product.featured{background:#e8ede5}.product h3{font-size:27px;margin:12px 0 6px}.product p{color:var(--muted)}.badge{display:inline-flex;padding:7px 10px;border-radius:999px;background:#e5ebe4;font-size:10px;font-weight:800;width:max-content}.preview{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:18px 0}.preview div{background:#f2f4f0;border-radius:14px;padding:11px}.preview small{display:block;font-size:9px;color:#7d867f}.preview b{font-size:12px}.product ul{list-style:none;padding:0;display:grid;gap:7px;color:#48534c;font-size:13px}.product li:before{content:"↳";color:var(--brand);margin-right:8px}.product .bottom{margin-top:auto;display:flex;gap:10px;flex-wrap:wrap;align-items:center;padding-top:16px}.price{margin-left:auto;font-weight:800;font-size:22px}.soft{background:#ecefe8;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.reasons{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.reason{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px;min-height:190px}.reason h4{font-size:20px;margin:28px 0 7px}.reason p{font-size:13px;color:var(--muted)}.faq details{border-bottom:1px solid #ccd4cd}.faq summary{cursor:pointer;padding:20px 0;font-weight:700;display:flex;justify-content:space-between}.faq p{color:var(--muted);padding-bottom:16px;margin:0}footer{background:#101512;color:#d9dfda;padding:55px 0 24px}footer .grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}footer a{color:#aab4ac;font-size:13px}footer b{color:#fff}.hidden{display:none!important}.page{min-height:70vh}.page-hero{padding:48px 0 28px}.back{display:inline-flex;align-items:center;gap:7px;font-weight:700;font-size:14px;color:#465249;margin-top:22px}.verified{background:#e9f1ea;border:1px solid #d3e1d5;border-radius:18px;padding:15px 17px;margin:18px 0;font-size:13px}.detail-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:22px;align-items:start}.panel{background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px}.panel h3{margin-top:0;font-size:24px}.factgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}.fact{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px}.fact small{font-size:10px;color:#7c867f}.fact b{display:block;margin:6px 0}.auto{display:grid;gap:8px}.autorow{display:grid;grid-template-columns:1.1fr .7fr 1.7fr;gap:8px}.autorow>div{background:#fff;border:1px solid var(--line);border-radius:13px;padding:11px;font-size:12px}.tag{padding:5px 8px;border-radius:999px;font-size:10px;font-weight:800;display:inline-flex}.autoTag{background:#dcebdc;color:#35583d}.manualTag{background:#f1e6cf;color:#6d592e}.mixedTag{background:#e8e1ef;color:#55416d}.schema{background:#111713;color:#d8e2db;border-radius:20px;padding:18px}.schema-row{display:grid;grid-template-columns:1fr 1.4fr;gap:10px;border-bottom:1px solid #273129;padding:9px 0;font-size:12px}.schema-row:last-child{border:0}.warning{background:#fff6df;border:1px solid #e8d7a8;border-radius:16px;padding:14px 16px;color:#665a38;font-size:13px}.buybar{background:#101512;color:#fff;border-radius:24px;padding:26px;display:flex;justify-content:space-between;align-items:center;gap:20px;margin:28px 0}.buybar p{color:#aeb9b1;margin:4px 0 0}.module-list{display:grid;gap:10px}.module{display:grid;grid-template-columns:42px 1fr;gap:12px;background:#f8f9f5;border:1px solid #e3e8e2;border-radius:15px;padding:13px}.module .ico{width:42px;height:42px;border-radius:12px;background:#e5ede6;display:grid;place-items:center}.module b{display:block}.module span{font-size:12px;color:#6b756e}.sales-strip{background:#101512;color:#fff;padding:12px 0;font-size:12px;text-align:center;border-bottom:1px solid #2b342e}.sales-strip b{color:#d7e5da}.selector{display:grid;grid-template-columns:1fr .9fr;gap:18px;align-items:start}.quiz{background:#fff;border:1px solid var(--line);border-radius:24px;padding:24px}.quiz-step{display:none}.quiz-step.active{display:block}.quiz-options{display:grid;gap:10px;margin-top:18px}.quiz-option{width:100%;text-align:left;background:#f7f8f4;border:1px solid #dfe5df;border-radius:16px;padding:14px 16px;cursor:pointer;font-weight:700;color:#2f3a33}.quiz-option:hover{border-color:#9fb1a2;background:#f0f4ef}.quiz-result{background:#101512;color:#fff;border-radius:24px;padding:24px;min-height:250px}.quiz-result p{color:#b4beb7}.quiz-result .result-price{font-size:30px;font-weight:800;margin:14px 0}.compare-wrap{overflow-x:auto}.compare{width:100%;border-collapse:separate;border-spacing:0 8px;min-width:820px}.compare th,.compare td{padding:14px;background:#fff;border-top:1px solid #e0e6e0;border-bottom:1px solid #e0e6e0;font-size:12px;text-align:left}.compare th:first-child,.compare td:first-child{border-left:1px solid #e0e6e0;border-radius:14px 0 0 14px}.compare th:last-child,.compare td:last-child{border-right:1px solid #e0e6e0;border-radius:0 14px 14px 0}.compare th{background:#eef3ef;font-weight:800}.beforeafter{display:grid;grid-template-columns:1fr 1fr;gap:16px}.ba-card{border-radius:22px;padding:24px;border:1px solid var(--line)}.ba-card.before{background:#f6eee8}.ba-card.after{background:#e9f2ea}.ba-card h3{margin-top:0;font-size:24px}.ba-card ul{padding-left:20px;color:#5f6a62}.purchase-box{display:grid;grid-template-columns:1.1fr .9fr;gap:16px;background:#fff;border:1px solid var(--line);border-radius:24px;padding:24px}.purchase-items{display:grid;grid-template-columns:1fr 1fr;gap:10px}.purchase-item{background:#f7f8f4;border:1px solid #e2e7e1;border-radius:15px;padding:14px}.purchase-item b{display:block;margin-bottom:4px}.purchase-item span{font-size:12px;color:#6c756f}.audience{display:grid;grid-template-columns:1fr 1fr;gap:16px}.audience .good,.audience .bad{border-radius:22px;padding:22px;border:1px solid var(--line)}.audience .good{background:#eaf2ea}.audience .bad{background:#f3eee9}.audience ul{padding-left:20px;color:#5f6962}.demo-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.demo-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px}.demo-thumb{height:130px;border-radius:14px;background:linear-gradient(135deg,#dfe8df,#ece7f3);display:grid;place-items:center;font-size:32px;margin-bottom:12px}.demo-card p{font-size:12px;color:#69736c}.bundle-pro{display:grid;grid-template-columns:1.2fr .8fr;gap:20px;background:#101512;color:#fff;border-radius:28px;padding:34px}.bundle-pro p{color:#b7c0ba}.bundle-pro .offer{background:#1c251f;border:1px solid #344038;border-radius:20px;padding:22px}.bundle-pro .offer strong{font-size:38px}.bundle-note{font-size:11px;color:#9aa69d;margin-top:8px}.crosssell{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.cross{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px}.cross b{display:block;margin-bottom:6px}.cross p{font-size:12px;color:#6c766f}.freebie{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;background:#e9f1ea;border:1px solid #d6e2d7;border-radius:26px;padding:28px;align-items:center}.freebie-card{background:#fff;border:1px solid #dfe5df;border-radius:20px;padding:18px}.week-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:5px;margin-top:10px}.week-grid span{background:#f0f3ef;border-radius:7px;padding:8px 2px;font-size:9px;text-align:center}.form-note{font-size:11px;color:#657068;margin-top:8px}.testimonials{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.testimonial-placeholder{border:1px dashed #bbc7bd;border-radius:18px;padding:20px;text-align:center;color:#758078;background:#fafbf8}.delivery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.delivery-step{background:#fff;border:1px solid var(--line);border-radius:18px;padding:20px}.delivery-step .num{font-size:11px;color:#839087;font-weight:800}.delivery-step b{display:block;font-size:18px;margin:26px 0 6px}.campaign{background:#fff7df;border:1px solid #ead7a5;border-radius:20px;padding:18px 20px;display:flex;justify-content:space-between;gap:20px;align-items:center}.campaign small{display:block;color:#75663c}.campaign b{font-size:18px}.objections{display:grid;grid-template-columns:1fr 1fr;gap:12px}.objection{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px}.objection b{display:block;margin-bottom:6px}.objection p{font-size:13px;color:#677169;margin:0}.sticky-buy{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);width:min(720px,calc(100% - 22px));background:rgba(16,21,18,.96);color:#fff;border:1px solid #303a33;border-radius:18px;padding:10px 12px;display:none;z-index:80;box-shadow:0 18px 50px rgba(0,0,0,.22);align-items:center;justify-content:space-between;gap:12px}.sticky-buy.show{display:flex}.sticky-buy small{display:block;color:#aeb9b1}.sticky-buy strong{font-size:14px}.sticky-buy .sticky-price{font-weight:800;font-size:18px;margin-left:auto}.inline-trust{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="sales-strip">Planivo dijital sistemleri · <b>Planla. Düzenle. İlerle.</b></div>
-<header><div class="shell nav"><a class="brand" href="#home"><span class="logo">PV</span><span>Planivo</span></a><nav class="navlinks"><a href="#products">Ürünler</a><a href="#compare">Karşılaştır</a><a href="#freebie">Ücretsiz Planner</a></nav><a class="btn btn-dark" href="https://www.shopier.com/Planforyou" target="_blank">Shopier ↗</a></div></header>
-<main id="home" class="page">
-<section class="shell hero"><div><div class="eyebrow">NOTION TABANLI DİJİTAL SİSTEMLER</div><h1>Hayatını <em>tek sistemde</em> düzenle.</h1><p>Planivo; hayat, öğrencilik, para yönetimi ve alışkanlıklarını sade ve kullanışlı Notion sistemleriyle yönetmene yardımcı olur.</p><div class="actions"><a class="btn btn-dark" href="#products">Ürünleri Keşfet</a><a class="btn btn-outline" href="#freebie">Ücretsiz Planner</a></div><div class="trust"><span>✓ Dijital teslimat</span><span>✓ Notion ile kullanım</span><span>✓ Tek seferlik ödeme</span></div></div><div class="mock"><div class="mock-head"><span>PLANIVO DASHBOARD</span><span>Today</span></div><div class="metrics"><div class="metric"><small>ODAK</small><strong>3</strong></div><div class="metric"><small>HEDEF</small><strong>82%</strong></div></div><div class="tasklist"><div><span>Haftalık plan</span><b>Bugün</b></div><div><span>Bütçe kontrolü</span><b>10 dk</b></div><div><span>Habit check</span><b>✓</b></div></div></div></section>
-<section id="products" class="section soft"><div class="shell"><div class="section-head"><div><div class="kicker">ÜRÜNLER</div><h2>Sana uygun sistemi seç.</h2></div><p>Her ürün farklı bir ihtiyaca odaklanır. İstersen tek tek, istersen bundle ile kullan.</p></div><div class="products">
-<div class="product featured"><span class="badge">EN KAPSAMLI</span><h3>Ultimate Life OS PRO</h3><p>Hayatının farklı alanlarını tek merkezden yönetmek için kapsamlı sistem.</p><ul><li>Görev ve hedef takibi</li><li>Alışkanlıklar</li><li>Finans özeti</li><li>Weekly Reset</li><li>Reading & Learning</li></ul><div class="bottom"><a class="btn btn-dark" href="https://www.shopier.com/Planforyou/50314034" target="_blank">Satın Al ↗</a><span class="price">249 ₺</span></div></div>
-<div class="product"><span class="badge">ÖĞRENCİLER İÇİN</span><h3>Ultimate Student OS PRO</h3><p>Derslerden sınavlara, stajdan kariyere kadar öğrenci hayatını düzenle.</p><ul><li>Ders ve sınav takibi</li><li>Ödev & projeler</li><li>Tekrar sistemi</li><li>Staj & kariyer</li><li>GPA altyapısı</li></ul><div class="bottom"><a class="btn btn-dark" href="https://www.shopier.com/Planforyou/50312905" target="_blank">Satın Al ↗</a><span class="price">129 ₺</span></div></div>
-<div class="product"><span class="badge">FİNANS</span><h3>Money OS PRO</h3><p>Gelir, gider, bütçe ve birikimini daha net takip et.</p><ul><li>Hesaplar</li><li>İşlemler</li><li>Bütçeler</li><li>Borçlar</li><li>Birikim hedefleri</li></ul><div class="bottom"><a class="btn btn-dark" href="https://www.shopier.com/Planforyou/50312650" target="_blank">Satın Al ↗</a><span class="price">129 ₺</span></div></div>
-<div class="product"><span class="badge">ALIŞKANLIKLAR</span><h3>Habit Tracker PRO</h3><p>Haftalık alışkanlıklarını sade bir sistemle takip et.</p><ul><li>7 günlük takip</li><li>Tamamlama yüzdesi</li><li>Kategori & hedef</li><li>Haftalık streak görünümü</li></ul><div class="bottom"><a class="btn btn-dark" href="https://www.shopier.com/Planforyou/50312469" target="_blank">Satın Al ↗</a><span class="price">129 ₺</span></div></div>
-</div></div></section>
-<section class="section"><div class="shell"><div class="bundle-pro"><div><div class="kicker">4'LÜ BUNDLE</div><h2 style="font-size:42px;margin:10px 0">Dört sistemi tek pakette kullan.</h2><p>Life OS, Student OS, Money OS ve Habit Tracker PRO birlikte.</p><div class="actions"><a class="btn btn-light" href="https://www.shopier.com/Planforyou/50343590" target="_blank">4’lü Bundle’ı Satın Al ↗</a></div></div><div class="offer"><small>AYRI AYRI TOPLAM</small><div style="text-decoration:line-through;color:#98a49c;font-size:18px">636 ₺</div><strong>449 ₺</strong><div class="bundle-note">4 ürün tek dijital pakette.</div></div></div></div></section>
-<section id="compare" class="section soft"><div class="shell"><div class="section-head"><div><div class="kicker">KARŞILAŞTIR</div><h2>Hangisi sana uygun?</h2></div></div><div class="compare-wrap"><table class="compare"><tr><th>Özellik</th><th>Life OS</th><th>Student OS</th><th>Money OS</th><th>Habit Tracker</th></tr><tr><td>Görev planlama</td><td>✓</td><td>✓</td><td>—</td><td>—</td></tr><tr><td>Öğrenci sistemi</td><td>—</td><td>✓</td><td>—</td><td>—</td></tr><tr><td>Finans takibi</td><td>✓</td><td>—</td><td>✓</td><td>—</td></tr><tr><td>Alışkanlık takibi</td><td>✓</td><td>—</td><td>—</td><td>✓</td></tr><tr><td>Fiyat</td><td>249 ₺</td><td>129 ₺</td><td>129 ₺</td><td>129 ₺</td></tr></table></div></div></section>
-<section id="freebie" class="section"><div class="shell"><div class="freebie"><div><div class="kicker">ÜCRETSİZ</div><h2 style="font-size:42px">Weekly Planner Lite</h2><p>Planivo’yu satın almadan önce deneyebileceğin sade, yazdırılabilir bir haftalık planlayıcı.</p><div class="actions" style="margin-top:16px"><a class="btn btn-dark" href="Planivo_Weekly_Planner_Lite.pdf" download>Ücretsiz PDF'i indir ↓</a><a class="btn btn-outline" href="#products">PRO ürünlere göz at</a></div><div class="form-note">E-posta vermeden direkt indirebilirsin. PDF yazdırılabilir ve dijital not alma uygulamalarında kullanılabilir.</div></div><div class="freebie-card"><b>Bu hafta</b><div class="week-grid"><span>Pzt</span><span>Sal</span><span>Çar</span><span>Per</span><span>Cum</span><span>Cmt</span><span>Paz</span></div></div></div></div></section>
-<section class="section soft"><div class="shell"><div class="section-head"><div><div class="kicker">TESLİMAT</div><h2>Satın aldıktan sonra ne olur?</h2></div></div><div class="delivery"><div class="delivery-step"><span class="num">01</span><b>Shopier'den satın al</b><p>İstediğin dijital ürünü güvenli ödeme ile satın al.</p></div><div class="delivery-step"><span class="num">02</span><b>Erişim dosyasını aç</b><p>Ürün erişim bağlantısını içeren dijital dosyayı kullan.</p></div><div class="delivery-step"><span class="num">03</span><b>Notion'a ekle</b><p>Şablonu kendi hesabına ekleyip kişiselleştir.</p></div></div></div></section>
-<section class="section"><div class="shell faq"><div class="section-head"><div><div class="kicker">SSS</div><h2>Sık sorulanlar</h2></div></div><details><summary>Notion ücretli olmak zorunda mı?<span>+</span></summary><p>Hayır. Ürünler mümkün olduğunca ücretsiz Notion planıyla kullanılabilecek şekilde hazırlanmıştır. Bazı Notion özellikleri plana göre değişebilir.</p></details><details><summary>Ürün fiziksel olarak gönderiliyor mu?<span>+</span></summary><p>Hayır. Tüm ürünler dijitaldir.</p></details><details><summary>Her şey tamamen otomatik mi?<span>+</span></summary><p>Hayır. Formül ve hesaplama kullanılan bazı alanlar otomatik çalışırken bazı takip alanları kullanıcı tarafından manuel olarak güncellenir.</p></details></div></section>
+<div class="grain"></div>
+<div class="cursor-glow" id="glow"></div>
+
+<div class="announcement"><b>Planivo 4’lü Bundle yayında.</b> Life, Student, Money ve Habit sistemleri tek pakette.</div>
+
+<header>
+  <div class="container nav">
+    <a class="brand" href="#top"><span class="brandmark">P<span>V</span></span><strong>Planivo</strong></a>
+    <nav class="navlinks">
+      <a href="#products">Ürünler</a>
+      <a href="#compare">Karşılaştır</a>
+      <a href="#free">Ücretsiz Planner</a>
+      <a href="#faq">SSS</a>
+      <a class="nav-cta" target="_blank" href="https://www.shopier.com/Planforyou/50343590">Bundle’ı Gör ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow"><span class="dot"></span> Dijital yaşam sistemleri</div>
+      <h1>Dağınıklığı bırak.<br><em>Sistem kur.</em></h1>
+      <p>Planivo; hayatını, derslerini, paranı ve alışkanlıklarını ayrı ayrı uygulamalara dağıtmak yerine, sade ve sürdürülebilir Notion sistemlerinde toplar.</p>
+      <div class="hero-actions">
+        <a class="btn btn-dark" href="#products">Sistemleri keşfet ↓</a>
+        <a class="btn btn-light" target="_blank" href="https://www.shopier.com/Planforyou/50343590">4’lü Bundle’ı incele ↗</a>
+      </div>
+      <div class="microtrust">
+        <span>Dijital teslimat</span><span>Notion ile kullanım</span><span>Tek seferlik satın alma</span>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="bundle-stage">
+      <div class="bundle-wordmark">PLANIVO <span>4’LÜ BUNDLE</span></div>
+      <div class="cover-stack">
+        <div class="cover c1"><i>01</i><b>Life OS</b><small>Hayatını tek merkezde düzenle</small></div>
+        <div class="cover c2"><i>02</i><b>Student OS</b><small>Ders, sınav ve kariyer sistemi</small></div>
+        <div class="cover c3"><i>03</i><b>Money OS</b><small>Finansını daha net gör</small></div>
+        <div class="cover c4"><i>04</i><b>Habit Tracker</b><small>Haftalık alışkanlık takibi</small></div>
+      </div>
+    </div>
+      <div class="floating-card f1"><b>4 sistem · tek düzen</b><span>Life · Student · Money · Habit</span></div>
+      <div class="floating-card f2"><b>Planla. Düzenle. İlerle.</b><span>Planivo çalışma sistemi</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section dark reveal">
+  <div class="container">
+    <div class="section-top">
+      <div><div class="kicker">Ana teklif</div><h2>Tek paket.<br>Dört güçlü sistem.</h2></div>
+      <p>En kapsamlı Planivo deneyimi. Dört farklı ihtiyacı tek satın alımda bir araya getirir.</p>
+    </div>
+    <div class="bundle-offer">
+      <div>
+        <div class="offer-list">
+          <div class="offer-item"><small>01</small><b>Ultimate Life OS PRO</b></div>
+          <div class="offer-item"><small>02</small><b>Ultimate Student OS PRO</b></div>
+          <div class="offer-item"><small>03</small><b>Money OS PRO</b></div>
+          <div class="offer-item"><small>04</small><b>Habit Tracker PRO</b></div>
+        </div>
+      </div>
+      <div class="offer-side">
+        <div>
+          <div class="label">Planivo Bundle</div>
+          <h3>Her şeyi ayrı ayrı kurmak zorunda değilsin.</h3>
+          <p>Bundle satın alımı Shopier üzerinden tamamlanır. Dijital erişim dosyasıyla ürünlerine ulaşırsın.</p>
+        </div>
+        <a class="btn btn-green" target="_blank" href="https://www.shopier.com/Planforyou/50343590">4’lü Bundle’ı Shopier’de Gör ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section reveal" id="products">
+  <div class="container">
+    <div class="section-top">
+      <div><div class="kicker">Planivo ürünleri</div><h2>Sana uygun sistemi seç.</h2></div>
+      <p>Tek bir ihtiyacını çözmek istiyorsan ürünleri ayrı ayrı da satın alabilirsin.</p>
+    </div>
+    <div class="products">
+      <article class="product">
+        <div class="product-num">01</div><h3>Ultimate Life OS PRO</h3>
+        <p>Günlük yaşam, hedefler, görevler, haftalık reset, finans özeti ve kişisel alanlarını tek merkezde toparla.</p>
+        <div class="chips"><span class="chip">Hayat yönetimi</span><span class="chip">Hedefler</span><span class="chip">Weekly Reset</span></div>
+        <div class="product-preview"><div class="preview-head"><span>Life OS · Yapı önizlemesi</span><span>PRO</span></div><div class="preview-grid">
+          <div class="preview-cell"><small>Today</small><b>Görevler</b></div><div class="preview-cell"><small>Progress</small><b>Hedefler</b></div><div class="preview-cell"><small>Money</small><b>Özet</b></div>
+        </div></div>
+        <div class="product-bottom"><a class="btn btn-dark" target="_blank" href="https://www.shopier.com/Planforyou/50314034">Satın al ↗</a><span class="price">249 TL</span></div>
+      </article>
+      <article class="product">
+        <div class="product-num">02</div><h3>Ultimate Student OS PRO</h3>
+        <p>Ders, sınav, ödev, çalışma planı, tekrar sistemi, kaynaklar ve kariyer süreçlerini tek öğrenci panelinde topla.</p>
+        <div class="chips"><span class="chip">Dersler</span><span class="chip">Sınavlar</span><span class="chip">Kariyer</span></div>
+        <div class="product-preview"><div class="preview-head"><span>Student OS · Yapı önizlemesi</span><span>PRO</span></div><div class="preview-grid">
+          <div class="preview-cell"><small>Courses</small><b>Dersler</b></div><div class="preview-cell"><small>Exams</small><b>Sınavlar</b></div><div class="preview-cell"><small>Review</small><b>Tekrar</b></div>
+        </div></div>
+        <div class="product-bottom"><a class="btn btn-dark" target="_blank" href="https://www.shopier.com/Planforyou/50312905">Satın al ↗</a><span class="price">129 TL</span></div>
+      </article>
+      <article class="product">
+        <div class="product-num">03</div><h3>Money OS PRO</h3>
+        <p>Hesaplar, işlemler, bütçeler, borçlar, abonelikler ve birikim hedeflerini daha görünür hale getir.</p>
+        <div class="chips"><span class="chip">Bütçe</span><span class="chip">Borçlar</span><span class="chip">Birikim</span></div>
+        <div class="product-preview"><div class="preview-head"><span>Money OS · Yapı önizlemesi</span><span>PRO</span></div><div class="preview-grid">
+          <div class="preview-cell"><small>Accounts</small><b>Hesaplar</b></div><div class="preview-cell"><small>Budget</small><b>Bütçe</b></div><div class="preview-cell"><small>Goals</small><b>Birikim</b></div>
+        </div></div>
+        <div class="product-bottom"><a class="btn btn-dark" target="_blank" href="https://www.shopier.com/Planforyou/50312650">Satın al ↗</a><span class="price">129 TL</span></div>
+      </article>
+      <article class="product">
+        <div class="product-num">04</div><h3>Habit Tracker PRO</h3>
+        <p>Haftalık alışkanlıklarını işaretle, tamamlama oranını gör ve sürdürülebilir bir takip ritmi oluştur.</p>
+        <div class="chips"><span class="chip">7 günlük takip</span><span class="chip">Tamamlama %</span><span class="chip">Haftalık streak</span></div>
+        <div class="product-preview"><div class="preview-head"><span>Habit Tracker · Yapı önizlemesi</span><span>PRO</span></div><div class="preview-grid">
+          <div class="preview-cell"><small>Mon–Sun</small><b>Hafta</b></div><div class="preview-cell"><small>Progress</small><b>Tamamlama</b></div><div class="preview-cell"><small>Notes</small><b>Notlar</b></div>
+        </div></div>
+        <div class="product-bottom"><a class="btn btn-dark" target="_blank" href="https://www.shopier.com/Planforyou/50312469">Satın al ↗</a><span class="price">129 TL</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section soft reveal" id="compare">
+<div class="container">
+  <div class="section-top"><div><div class="kicker">Karşılaştır</div><h2>Hangisi sana göre?</h2></div><p>İhtiyacına göre doğru ürünü daha hızlı seç.</p></div>
+  <div class="compare-wrap">
+  <table>
+    <thead><tr><th>İhtiyaç</th><th>Life OS</th><th>Student OS</th><th>Money OS</th><th>Habit Tracker</th></tr></thead>
+    <tbody>
+      <tr><td>Günlük yaşam planlama</td><td>● Güçlü</td><td>○ Temel</td><td>—</td><td>—</td></tr>
+      <tr><td>Ders / sınav / ödev</td><td>—</td><td>● Güçlü</td><td>—</td><td>—</td></tr>
+      <tr><td>Finans takibi</td><td>○ Özet</td><td>—</td><td>● Güçlü</td><td>—</td></tr>
+      <tr><td>Alışkanlık takibi</td><td>○ Haftalık</td><td>○ Streak alanı</td><td>—</td><td>● Odaklı</td></tr>
+      <tr><td>Kariyer / CV / staj</td><td>—</td><td>● Var</td><td>—</td><td>—</td></tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+</section>
+
+<section class="section reveal">
+<div class="container">
+  <div class="section-top"><div><div class="kicker">Nasıl çalışır?</div><h2>Satın al. Kopyala. Kullan.</h2></div><p>Kurulum sürecini mümkün olduğunca kısa tuttuk.</p></div>
+  <div class="flow">
+    <div class="flow-card"><div class="flow-num">01</div><h3>Shopier’den satın al</h3><p>Ürün veya bundle bağlantısından siparişini tamamla.</p></div>
+    <div class="flow-card"><div class="flow-num">02</div><h3>Dijital erişime ulaş</h3><p>Satın aldığın ürüne ait erişim dosyası üzerinden Notion sistemine git.</p></div>
+    <div class="flow-card"><div class="flow-num">03</div><h3>Kendi sistemine dönüştür</h3><p>Şablonu kendi hesabında kullan ve alanları kendi düzenine göre doldur.</p></div>
+  </div>
+</div>
+</section>
+
+<section class="section reveal" id="free">
+<div class="container freebie">
+  <div>
+    <div class="kicker">Ücretsiz başlangıç</div>
+    <h2>Önce Planivo’yu dene.</h2>
+    <p style="color:var(--muted);max-width:560px">Weekly Planner Lite ile haftanın ana odağını, üç önceliğini, günlük planını ve alışkanlıklarını tek sayfada düzenle.</p>
+    <div class="hero-actions">
+      <a class="btn btn-green" download="Planivo_Weekly_Planner_Lite.pdf" href="Planivo_Weekly_Planner_Lite.pdf">Ücretsiz planner’ı indir ↓</a>
+      <a class="btn btn-light" href="#products">PRO sistemlere göz at</a>
+    </div>
+    <p style="font-size:11px;color:#78847c;margin-top:12px">E-posta gerektirmez · PDF · Yazdırılabilir</p>
+  </div>
+  <div class="planner-card">
+    <div class="planner-top"><b>PLANIVO</b><span>WEEKLY PLANNER LITE</span></div>
+    <div style="font-family:Georgia,serif;font-size:26px;margin-top:18px">Bu haftanın odağı</div>
+    <div style="height:42px;border:1px solid #e4e9e4;border-radius:10px;margin:10px 0 15px"></div>
+    <div class="planner-days"><div class="planner-day">Pzt</div><div class="planner-day">Sal</div><div class="planner-day">Çar</div><div class="planner-day">Per</div><div class="planner-day">Cum</div><div class="planner-day">Cmt</div><div class="planner-day">Paz</div></div>
+  </div>
+</div>
+</section>
+
+<section class="section reveal" id="faq">
+<div class="container">
+  <div class="section-top"><div><div class="kicker">SSS</div><h2>Satın almadan önce.</h2></div></div>
+  <div class="faq">
+    <details><summary>Ürünler fiziksel olarak mı gönderiliyor?</summary><p>Hayır. Planivo ürünleri dijital Notion sistemleridir; fiziksel kargo bulunmaz.</p></details>
+    <details><summary>Notion’un ücretli planı gerekli mi?</summary><p>Sistemler mümkün olduğunca ücretsiz Notion kullanımı düşünülerek hazırlanmıştır. Bazı Notion özellikleri plana göre farklılık gösterebilir; ürünlerde manuel alanlar açıkça belirtilir.</p></details>
+    <details><summary>Her şey tamamen otomatik mi?</summary><p>Hayır. Formüllerin hesapladığı alanlar otomatik olabilir; ancak bazı veriler, ilişkiler, ilerleme veya haftalık takip alanları kullanıcı tarafından girilir. Planivo bu ayrımı ürün açıklamalarında özellikle açık tutar.</p></details>
+    <details><summary>4’lü Bundle’da hangi ürünler var?</summary><p>Ultimate Life OS PRO, Ultimate Student OS PRO, Money OS PRO ve Habit Tracker PRO.</p></details>
+    <details><summary>Satın alma nereden yapılıyor?</summary><p>Satın alma Planivo’nun Shopier mağazası üzerinden tamamlanır.</p></details>
+  </div>
+</div>
+</section>
+
+<section class="final-cta">
+  <div class="container inner">
+    <div class="kicker" style="color:#91aa98">Planivo</div>
+    <h2>Motivasyon bekleme.<br>Sistemini kur.</h2>
+    <p>Hayatındaki dağınıklığı tek gecede çözmeyebiliriz. Ama neyi, nerede takip edeceğini çok daha net hale getirebiliriz.</p>
+    <a class="btn btn-light" target="_blank" href="https://www.shopier.com/Planforyou/50343590">4’lü Bundle’ı Shopier’de İncele ↗</a>
+  </div>
+</section>
 </main>
-<footer><div class="shell grid"><div><div class="brand"><span class="logo">PV</span><b>Planivo</b></div><p style="color:#95a198;max-width:330px">Planla. Düzenle. İlerle.</p></div><div><b>Ürünler</b><br><a href="#products">Tüm ürünler</a><br><a href="#freebie">Ücretsiz Planner</a></div><div><b>Satış</b><br><a href="https://www.shopier.com/Planforyou" target="_blank">Shopier Mağazası ↗</a></div></div></footer>
+
+<footer>
+<div class="container">
+  <div class="footer-grid">
+    <div><div class="footerbrand"><span class="brandmark">P<span>V</span></span><strong>Planivo</strong></div><p style="max-width:340px;font-size:12px">Planla. Düzenle. İlerle.<br>Notion tabanlı dijital yaşam sistemleri.</p></div>
+    <div><b>Ürünler</b><div style="display:grid;gap:9px;margin-top:13px;font-size:12px"><a href="#products">Tüm ürünler</a><a target="_blank" href="https://www.shopier.com/Planforyou/50343590">4’lü Bundle</a><a href="#free">Ücretsiz Planner</a></div></div>
+    <div><b>Satın alma</b><div style="display:grid;gap:9px;margin-top:13px;font-size:12px"><a target="_blank" href="https://www.shopier.com/Planforyou">Shopier mağazası ↗</a><a href="#faq">SSS</a></div></div>
+  </div>
+  <div class="copyright">© Planivo · Dijital ürün mağazası</div>
+</div>
+</footer>
+
+<div class="sticky-buy" id="sticky">
+  <div><small>Planivo 4’lü Bundle</small><strong>Dört sistemi tek pakette keşfet</strong></div>
+  <a class="btn btn-light" target="_blank" href="https://www.shopier.com/Planforyou/50343590">Bundle ↗</a>
+</div>
+
+<script src="app.js"></script>
 </body>
 </html>
